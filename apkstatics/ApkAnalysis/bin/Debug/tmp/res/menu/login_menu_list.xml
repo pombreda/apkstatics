@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/clear_acct_menu_icon" android:id="@id/clear_account" android:menuCategory="system" android:title="清除帐号" />
+    <item android:icon="@drawable/net_setting_menu_icon" android:id="@id/net_setting" android:menuCategory="system" android:title="网络设置" />
+    <item android:icon="@drawable/help_menu_icon" android:id="@id/help" android:menuCategory="system" android:title="@string/menu_help_and_update" />
+    <item android:icon="@drawable/exit_menu_icon" android:id="@id/exit" android:menuCategory="system" android:title="@string/menu_logout_and_exit" />
+    <item android:id="@id/item01" android:menuCategory="system" />
+    <item android:id="@id/item02" android:menuCategory="system" />
+</menu>

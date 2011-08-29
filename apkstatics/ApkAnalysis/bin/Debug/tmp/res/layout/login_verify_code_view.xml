@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/login_verify_code_view_root" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_gravity="center_horizontal" android:id="@id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sVerifyInfo" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/login_verify_img" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <EditText android:layout_gravity="center_horizontal" android:id="@id/login_verify_edittext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:width="200.0dip" android:inputType="number" />
+    <LinearLayout android:id="@id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/login_verify_ok_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/button_send_vcode" android:layout_weight="1.0" />
+        <Button android:id="@id/login_verify_cancel_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/button_cancel" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

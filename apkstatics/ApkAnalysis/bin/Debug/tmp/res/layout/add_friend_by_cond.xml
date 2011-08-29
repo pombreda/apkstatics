@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:layout_gravity="center_vertical" android:id="@id/detail" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/select_area" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:id="@id/input1" android:paddingLeft="12.0dip" android:paddingRight="13.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <TextView android:id="@id/text_province_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="省份:" android:layout_centerVertical="true" style="\@style/add_friend_by_cond_text_province_id" />
+            <TextView android:gravity="center_vertical" android:id="@id/condinput01" android:background="?qq_selectitem_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="\u0020请选择\u0020" android:height="40.0dip" android:layout_weight="1.0" android:layout_toRightOf="@id/text_id" android:layout_centerVertical="true" style="\@style/add_friend_by_cond_condinput01" />
+            <ImageView android:id="@id/ImageView01" android:background="@drawable/go_next_icon" android:visibility="visible" android:saveEnabled="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@id/input2" android:paddingLeft="12.0dip" android:paddingRight="13.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <TextView android:id="@id/text_age_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="年龄:" android:layout_centerVertical="true" style="\@style/add_friend_by_cond_text_age_id" />
+            <TextView android:gravity="center_vertical" android:id="@id/condinput02" android:background="?qq_selectitem_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="\u0020请选择\u0020" android:height="40.0dip" android:freezesText="true" android:layout_weight="1.0" android:layout_toRightOf="@id/text_id" android:layout_centerVertical="true" style="\@style/add_friend_by_cond_condinput02" />
+            <ImageView android:id="@id/ImageView02" android:background="@drawable/go_next_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@id/input3" android:paddingLeft="12.0dip" android:paddingRight="13.0dip" android:clickable="true" android:duplicateParentState="false" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <TextView android:id="@id/text_gender_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="性别:" android:layout_centerVertical="true" style="\@style/add_friend_by_cond_text_gender_id" />
+            <TextView android:gravity="center_vertical" android:id="@id/condinput03" android:background="?qq_selectitem_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="\u0020请选择\u0020" android:height="40.0dip" android:layout_weight="1.0" android:layout_toRightOf="@id/text_id" android:layout_centerVertical="true" style="\@style/add_friend_by_cond_condinput03" />
+            <ImageView android:id="@id/ImageView03" android:background="@drawable/go_next_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button android:id="@id/Button03" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="查找" android:layout_below="@id/select_area" />
+</RelativeLayout>

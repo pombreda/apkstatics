@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView android:id="@id/settingBoby" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/contactHeader" android:layout_alignParentLeft="true" layout="\@layout/contact_header" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/item_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+            <RelativeLayout android:id="@id/myStatusItem" android:background="@drawable/opt_selectitem" android:focusable="true" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <TextView android:id="@id/myStatusTitle" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/my_status" android:layout_centerVertical="true" style="\@style/setting_manager_myStatusTitle" />
+                <ImageView android:id="@id/ImageView01" android:background="@drawable/expand" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <TextView android:id="@id/myStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/status_online" android:layout_toLeftOf="@id/ImageView01" android:layout_centerVertical="true" style="\@style/setting_manager_myStatusTitle" />
+            </RelativeLayout>
+            <View android:background="?info_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignWithParentIfMissing="false" />
+            <RelativeLayout android:id="@id/myDetailItem" android:background="@drawable/opt_selectitem" android:focusable="true" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <TextView android:id="@id/myDetail" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/my_detail" android:layout_centerVertical="true" style="\@style/setting_manager_myDetail" />
+                <ImageView android:background="@drawable/go_next_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:background="@drawable/info_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignWithParentIfMissing="false" />
+            <LinearLayout android:id="@id/signatureItem" android:background="@drawable/opt_selectitem" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:id="@id/signatureTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/my_signature" style="\@style/setting_manager_signatureTitle" />
+                    <TextView android:id="@id/signature" android:layout_width="wrap_content" android:layout_height="wrap_content" style="\@style/setting_manager_signature" />
+                </LinearLayout>
+                <ImageView android:background="@drawable/go_next_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </LinearLayout>
+            <View android:background="@drawable/info_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignWithParentIfMissing="false" />
+            <RelativeLayout android:id="@id/friend_group_manager" android:background="@drawable/opt_selectitem" android:focusable="true" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <TextView android:id="@id/friend_group_set" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/friend_group_manager" android:layout_centerVertical="true" style="\@style/setting_manager_theme_set" />
+                <ImageView android:background="@drawable/go_next_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/sysSetting" android:background="@drawable/item_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <com.tencent.qq.widget.MyCheckBox android:textSize="18.0dip" android:textColor="@color/item_color" android:id="@id/soundItem" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/enable_sound" style="\?qq_checkbox_style" />
+            </RelativeLayout>
+            <View android:background="@drawable/info_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignWithParentIfMissing="false" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <com.tencent.qq.widget.MyCheckBox android:textSize="18.0dip" android:textColor="@color/item_color" android:id="@id/msgVibrateItem" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/enable_msg_vibrate" style="\?qq_checkbox_style" />
+            </RelativeLayout>
+            <View android:background="@drawable/info_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignWithParentIfMissing="false" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <com.tencent.qq.widget.MyCheckBox android:textSize="18.0dip" android:textColor="@color/item_color" android:id="@id/touchVibrateItem" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/enable_touch_vibrate" style="\?qq_checkbox_style" />
+            </RelativeLayout>
+            <View android:background="@drawable/info_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignWithParentIfMissing="false" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <com.tencent.qq.widget.MyCheckBox android:textSize="18.0dip" android:textColor="@color/item_color" android:id="@id/orientationItem" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/enable_orientation" style="\?qq_checkbox_style" />
+            </RelativeLayout>
+            <View android:background="@drawable/info_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignWithParentIfMissing="false" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <com.tencent.qq.widget.MyCheckBox android:textSize="18.0dip" android:textColor="@color/item_color" android:id="@id/groupMsgItem" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/group_enable" style="\?qq_checkbox_style" />
+            </RelativeLayout>
+            <View android:background="@drawable/info_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignWithParentIfMissing="false" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <com.tencent.qq.widget.MyCheckBox android:textSize="18.0dip" android:textColor="@color/item_color" android:id="@id/autoLogin" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/autologin_enable" style="\?qq_checkbox_style" />
+            </RelativeLayout>
+            <View android:background="@drawable/info_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignWithParentIfMissing="false" />
+            <RelativeLayout android:id="@id/themeSettingItem" android:background="@drawable/opt_selectitem" android:focusable="true" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <TextView android:id="@id/theme_set" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/theme_set" android:layout_centerVertical="true" style="\@style/setting_manager_theme_set" />
+                <ImageView android:background="@drawable/go_next_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

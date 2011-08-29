@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.tencent.qq.widget.IphoneTreeView android:id="@id/navigationList" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scrollingCache="true" android:groupIndicator="?expander_group_bg" android:indicatorLeft="-10.0dip" android:childIndicatorRight="14.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

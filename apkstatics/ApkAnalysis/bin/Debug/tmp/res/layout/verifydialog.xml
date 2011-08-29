@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/dialogbackground" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/dialogcontext" android:layout_width="wrap_content" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:id="@id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="请输入验证码" style="\@style/verifydialog_TextView01" />
+        <EditText android:id="@id/verifyIpnut" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="100.0dip" android:maxLength="4" android:inputType="numberDecimal" />
+    </LinearLayout>
+    <Button android:textColor="@color/white" android:id="@id/verifyButton" android:background="@drawable/buttonbackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/dialog_button_positive" />
+</LinearLayout>

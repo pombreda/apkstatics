@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@id/RelativeLayout01" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:id="@id/btn_pane" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/content">
+        <Button android:id="@id/qq_dialog_ok_btn_id" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@id/Button01" android:layout_weight="1.0" />
+        <Button android:id="@id/qq_dialog_cancel_btn_id" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@id/Button02" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

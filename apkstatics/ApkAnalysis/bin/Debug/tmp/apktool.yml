@@ -1,0 +1,6 @@
+version: 1.3.2
+apkFileName: PJApps-Gen_ f051eeab57e42d569d298ad076c9fb47610e201e.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1

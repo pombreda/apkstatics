@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.qq.SizeChangedEditText android:gravity="top|left|center" android:id="@id/EditText01" android:background="@drawable/edit_sign_back" android:paddingBottom="25.0dip" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@id/EditText01" android:selectAllOnFocus="true" android:maxLength="50" android:isScrollContainer="true" />
+    <LinearLayout android:id="@id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="7.0dip" android:layout_marginBottom="5.0dip" android:layout_below="@id/TextView02" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <TextView android:id="@id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="25" style="\@style/qq_edit_sign_TextView01" />
+        <TextView android:id="@id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="/50" style="\@style/qq_edit_sign_TextView02" />
+    </LinearLayout>
+</RelativeLayout>

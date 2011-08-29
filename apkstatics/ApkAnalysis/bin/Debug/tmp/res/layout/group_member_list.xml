@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceLargeInverse" android:gravity="center" android:id="@id/buddlist_txt_title" android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="wrap_content" style="\@style/group_member_list_buddlist_txt_title" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:id="@android:id/empty" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="\u0020" />
+    </LinearLayout>
+    <ImageButton android:layout_gravity="right" android:id="@id/buddylist_btn_back" android:background="?back_btn_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="13.0dip" />
+</LinearLayout>

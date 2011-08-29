@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/AppViewList" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0px" android:divider="@drawable/line" android:layout_weight="1.0" />
+    <WebView android:scrollbarStyle="insideOverlay" android:id="@id/webview" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/LinearLayoutBottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <LinearLayout android:gravity="bottom" android:id="@id/board" android:background="@drawable/bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/home" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_browser_home" android:layout_weight="0.3" />
+        <ImageView android:id="@id/refresh" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_browser_refresh" android:layout_weight="0.3" />
+        <ImageView android:enabled="false" android:id="@id/back" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_browser_back" android:layout_weight="0.3" />
+        <ImageView android:enabled="false" android:id="@id/forward" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_browser_forward" android:layout_weight="0.3" />
+    </LinearLayout>
+</LinearLayout>

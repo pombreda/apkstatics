@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="manager_friend_group">
+        <item>重命名</item>
+        <item>删除</item>
+    </string-array>
+    <string-array name="login_tips">
+        <item>正在登录...</item>
+        <item>提示文字1</item>
+        <item>提示文字2</item>
+    </string-array>
+    <string-array name="LoginHelpList">
+        <item>关于</item>
+        <item>检查更新</item>
+        <item>意见反馈</item>
+        <item>官方论坛</item>
+    </string-array>
+    <string-array name="sys_opt_checkable">
+        <item>开启声音</item>
+        <item>开启振动</item>
+    </string-array>
+    <string-array name="theme_names">
+        <item>深海之城</item>
+        <item>蔚蓝天空</item>
+        <item>雅致酷黑</item>
+        <item>青葱岁月</item>
+        <item>紫色迷情</item>
+        <item>咖啡物语</item>
+        <item>夜景模式</item>
+    </string-array>
+    <string-array name="personal_opt_list">
+        <item>我的状态</item>
+        <item>我的资料</item>
+        <item>个性签名</item>
+    </string-array>
+    <string-array name="status_strs">
+        <item>在线</item>
+        <item>隐身</item>
+        <item>离开</item>
+        <item>离线</item>
+    </string-array>
+</resources>

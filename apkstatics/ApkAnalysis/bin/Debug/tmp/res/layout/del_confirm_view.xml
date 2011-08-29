@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/del_confirm_view_root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="320.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="您确定从列表清除该帐号:" />
+    <TextView android:layout_gravity="center_horizontal" android:id="@id/del_confirm_view_uin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@id/TextView02" />
+    <ImageView android:id="@id/ImageView01" android:background="@drawable/line" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.tencent.qq.widget.MyCheckBox android:textSize="16.0sp" android:id="@id/clear_account_andrecord_chbox" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="同时清除该帐号的所有记录" style="\?qq_checkbox_style" />
+    <ImageView android:id="@id/ImageView02" android:background="@drawable/line" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="1.0dip" />
+    <LinearLayout android:id="@id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textColor="#ffffffff" android:id="@id/clear_account_confirm_btn" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="清除" android:layout_weight="1.0" />
+        <Button android:textColor="#ffffffff" android:id="@id/clear_account_quit_btn" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="取消" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/LinearLayout01" android:paddingLeft="12.0dip" android:paddingRight="13.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_vertical" android:id="@id/Button01" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="查看资料" android:layout_centerVertical="true" />
+    <View android:id="@id/divder1" android:background="@drawable/line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="5.0dip" android:layout_alignWithParentIfMissing="false" />
+    <TextView android:gravity="center_vertical" android:id="@id/Button02" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="加为好友" android:layout_centerVertical="true" />
+    <View android:id="@id/divder1" android:background="@drawable/line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="5.0dip" android:layout_alignWithParentIfMissing="false" />
+    <Button android:id="@id/test" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="取消" />
+</LinearLayout>

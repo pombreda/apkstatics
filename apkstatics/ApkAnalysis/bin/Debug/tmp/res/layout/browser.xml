@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/RelativeLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/document_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:id="@id/document_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/document_icon" style="\@style/browser_document_title" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/FrameLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <WebView android:id="@id/webview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_gravity="right" android:id="@id/statusbar" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/draw" android:background="@drawable/btn_browser_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_browser_draw_collapse" />
+                <LinearLayout android:id="@id/board" android:background="@drawable/btn_browser_board_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:id="@id/home" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_browser_home" android:layout_weight="1.0" />
+                    <ImageView android:id="@id/refresh" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_browser_refresh" android:layout_weight="1.0" />
+                    <ImageView android:enabled="false" android:id="@id/back" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_browser_back" android:layout_weight="1.0" />
+                    <ImageView android:enabled="false" android:id="@id/forward" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_browser_forward" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="-2.0px">
+                <ProgressBar android:id="@id/ProgressBar01" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="100" android:progress="0" android:layout_below="@id/statusbar" style="\?android:progressBarStyleHorizontal" />
+                <TextView android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/load_url" android:layout_below="@id/statusbar" android:layout_centerHorizontal="true" style="\@style/browser_label" />
+            </RelativeLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

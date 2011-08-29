@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/strangerMgrBoby" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/contactHeader" android:layout_alignParentLeft="true" layout="\@layout/contact_header" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/item_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+            <RelativeLayout android:id="@id/sendMsgItem" android:background="@drawable/opt_selectitem" android:focusable="true" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <TextView android:id="@id/open_conversation" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/open_conversation" android:layout_centerVertical="true" style="\@style/stranger_manager_open_conversation" />
+                <ImageView android:background="@drawable/go_next_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:id="@id/divder1" android:background="@drawable/info_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignWithParentIfMissing="false" />
+            <RelativeLayout android:id="@id/detailInfoItem" android:background="@drawable/opt_selectitem" android:focusable="true" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <TextView android:id="@id/open_detail_info" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/open_detail_info" android:layout_centerVertical="true" style="\@style/stranger_manager_open_detail_info" />
+                <ImageView android:background="@drawable/go_next_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:id="@id/divder2" android:background="@drawable/info_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignWithParentIfMissing="false" />
+            <RelativeLayout android:id="@id/addFriendItem" android:background="@drawable/opt_selectitem" android:focusable="true" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <TextView android:id="@id/add_to_friend" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_to_friend" android:layout_centerVertical="true" style="\@style/stranger_manager_add_to_friend" />
+                <ImageView android:background="@drawable/go_next_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:id="@id/divder3" android:background="@drawable/info_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignWithParentIfMissing="false" />
+            <RelativeLayout android:id="@id/viewChatHistoryItem" android:background="@drawable/opt_selectitem" android:focusable="true" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <TextView android:id="@id/viewChatHistory" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/view_chat_history" android:layout_centerVertical="true" style="\@style/stranger_manager_viewChatHistory" />
+                <ImageView android:background="@drawable/go_next_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:id="@id/divder5" android:background="@drawable/info_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignWithParentIfMissing="false" />
+            <RelativeLayout android:id="@id/view_send_mail" android:background="@drawable/opt_selectitem" android:focusable="true" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <TextView android:id="@id/send_mail_to" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/send_mail" android:layout_centerVertical="true" style="\@style/friend_manager_send_mail" />
+                <ImageView android:background="@drawable/go_next_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@id/delete_contactItem" android:background="@drawable/item_bg" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip">
+            <TextView android:gravity="center_vertical" android:id="@id/deleteItem" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/delete_from_group" style="\@style/stranger_manager_deleteItem" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

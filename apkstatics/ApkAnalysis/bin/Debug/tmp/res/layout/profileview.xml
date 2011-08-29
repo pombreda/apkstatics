@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/profileGroup" android:background="@drawable/profilebg" android:layout_width="180.0dip" android:layout_height="200.0dip">
+        <TextView android:id="@id/profileName" android:layout_width="wrap_content" android:layout_height="wrap_content" style="\@style/profileview_profileName" />
+        <TextView android:id="@id/profileSex" android:layout_width="wrap_content" android:layout_height="wrap_content" style="\@style/profileview_profileSex" />
+        <TextView android:id="@id/profileAge" android:layout_width="wrap_content" android:layout_height="wrap_content" style="\@style/profileview_profileAge" />
+        <TextView android:id="@id/profileBirth" android:layout_width="wrap_content" android:layout_height="wrap_content" style="\@style/profileview_profileBirth" />
+        <TextView android:id="@id/profileConstellation" android:layout_width="wrap_content" android:layout_height="wrap_content" style="\@style/profileview_profileConstellation" />
+        <TextView android:id="@id/profileLocate" android:layout_width="wrap_content" android:layout_height="wrap_content" style="\@style/profileview_profileLocate" />
+        <TextView android:id="@id/profileMatrimony" android:layout_width="wrap_content" android:layout_height="wrap_content" style="\@style/profileview_profileMatrimony" />
+    </LinearLayout>
+</FrameLayout>

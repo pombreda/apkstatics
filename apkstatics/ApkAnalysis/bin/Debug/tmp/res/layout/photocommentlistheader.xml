@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/ImageViewPhoto" android:background="@drawable/photobg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0px" android:layout_marginBottom="2.0px" />
+    <TextView android:id="@id/TextViewCommentCntHeader" android:background="@drawable/cmtcntbg" android:paddingLeft="10.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

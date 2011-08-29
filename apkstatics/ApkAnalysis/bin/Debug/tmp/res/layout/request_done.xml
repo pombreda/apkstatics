@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:layout_gravity="center_vertical" android:id="@id/detail" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/faceicon" android:padding="4.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="5.0dip" />
+    <TextView android:textSize="20.0dip" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="ttt" android:layout_toRightOf="@id/faceicon" android:layout_alignTop="@id/faceicon" />
+    <TextView android:id="@id/tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="已经成功添加为你的好友！" android:layout_below="@id/name" android:layout_alignLeft="@id/name" />
+    <TextView android:id="@id/tip2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="您可以：" android:layout_below="@id/tip" />
+    <View android:id="@id/divder1" android:background="@drawable/line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="5.0dip" android:layout_below="@id/tip2" android:layout_alignWithParentIfMissing="false" />
+    <TextView android:gravity="center_vertical" android:id="@id/cmd1" android:layout_width="wrap_content" android:layout_height="40.0dip" android:text="修改备注" android:layout_below="@id/divder1" />
+    <LinearLayout android:id="@id/detail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/cmd1">
+        <EditText android:id="@id/input" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="" android:singleLine="true" android:layout_weight="1.0" />
+        <Button android:id="@id/Button01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:text="发送" />
+    </LinearLayout>
+    <View android:id="@id/divder2" android:background="@drawable/line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="5.0dip" android:layout_below="@id/detail" android:layout_alignWithParentIfMissing="false" />
+    <TextView android:gravity="center_vertical" android:id="@id/cmd2" android:layout_width="wrap_content" android:layout_height="40.0dip" android:text="发起会话" android:layout_below="@id/divder2" />
+    <ImageView android:id="@id/ImageView02" android:background="@drawable/go_next_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/cmd2" android:layout_alignParentRight="true" />
+    <View android:id="@id/divder3" android:background="@drawable/line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="5.0dip" android:layout_below="@id/cmd2" android:layout_alignWithParentIfMissing="false" />
+</RelativeLayout>

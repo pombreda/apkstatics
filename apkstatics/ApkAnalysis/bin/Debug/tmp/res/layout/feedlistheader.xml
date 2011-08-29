@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/LinearLayoutRefresh" android:background="@drawable/d_new" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/LinearLayout03" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ProgressBar android:id="@id/ImageViewRefreshLoading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0px" style="\@style/qZoneListProgressStyle" />
+            <ImageView android:id="@id/TextViewRefresh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/hand_new" />
+        </LinearLayout>
+        <TextView android:id="@id/TextViewUpdateTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0px" style="\@style/feedlistheader_TextViewUpdateTime" />
+    </LinearLayout>
+</LinearLayout>

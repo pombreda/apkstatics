@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0px">
+        <TextView android:textSize="20.0px" android:gravity="center" android:id="@id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0px" android:text="读取自定义头像" />
+        <ImageButton android:layout_gravity="center" android:id="@id/checkreadhead" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="100.0px" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/bottomButtons" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

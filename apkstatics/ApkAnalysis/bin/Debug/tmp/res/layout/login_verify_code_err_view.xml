@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@id/verifyErrInfo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="20.0dip" android:text="@string/sVerifyInputErrRetry" android:layout_alignParentTop="true" />
+    <LinearLayout android:id="@id/verifyErrBtm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/verifyErrInfo">
+        <Button android:id="@id/login_verify_err_retrybtn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ok" android:layout_weight="1.0" />
+        <Button android:id="@id/login_verify_err_quitbtn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:gravity="center_vertical" android:id="@id/albumItemGroup" android:layout_width="fill_parent" android:layout_height="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center" android:id="@id/albumImage" android:background="@drawable/photodefault" android:layout_width="58.0px" android:layout_height="58.0px" android:layout_marginLeft="10.0px" android:layout_marginTop="7.0px" android:layout_marginRight="8.0px" android:layout_marginBottom="7.0px" android:scaleType="centerCrop" android:layout_alignParentLeft="true" />
+    <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:layout_centerVertical="true">
+        <TextView android:id="@id/albumName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_centerVertical="true" style="\@style/albumlistitem_albumName" />
+        <TextView android:id="@id/albumNumber" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:maxLines="1" android:layout_centerVertical="true" style="\@style/albumlistitem_albumNumber" />
+    </LinearLayout>
+</LinearLayout>

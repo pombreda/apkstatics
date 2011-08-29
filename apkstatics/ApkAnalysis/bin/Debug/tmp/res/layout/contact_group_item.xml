@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="?expand_group_bar_bg" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="19.0dip" android:layout_marginRight="6.0dip" android:singleLine="true" style="\@style/contact_group_item_name" />
+    <TextView android:id="@id/count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="\@style/contact_group_item_count" />
+</LinearLayout>

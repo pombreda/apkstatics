@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ViewFlipper android:id="@id/listFlipper" android:animationCache="true" android:alwaysDrawnWithCache="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.qq.widget.IphoneTreeView android:id="@id/contactlist" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scrollingCache="true" android:cacheColorHint="#00000000" android:groupIndicator="?expander_group_bg" android:indicatorLeft="-10.0dip" android:childIndicatorRight="14.0dip" android:childDivider="@drawable/trans" android:divider="@drawable/trans" />
+    <ListView android:scrollbarStyle="outsideOverlay" android:id="@id/recentlist" android:padding="0.0dip" android:visibility="invisible" android:clickable="true" android:duplicateParentState="true" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@null" android:scrollingCache="true" android:cacheColorHint="#00000000" android:divider="@null" android:keepScreenOn="true" android:isScrollContainer="true" />
+</ViewFlipper>

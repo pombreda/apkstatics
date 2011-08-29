@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="tabbg">#7f0a4267</color>
+    <color name="transparent">#00000000</color>
+    <color name="qq_green">#ff195c7b</color>
+    <color name="qq_gray">#ff52525c</color>
+    <color name="qq_green2">#ff092431</color>
+    <color name="splashBG">#ff1a3048</color>
+    <color name="qq_golden">#ffffb422</color>
+    <color name="qq_red">#ffe83d3d</color>
+    <color name="qq_normal">#ffffffff</color>
+    <color name="qq_semi_transparent_white">#7fffffff</color>
+    <color name="qq_current_sign_num_color">#ff5591af</color>
+    <color name="qq_max_sign_num_color">#ffa2a2a2</color>
+    <color name="item_color">#ff2d2d2d</color>
+    <color name="item_text_color">#ffffffff</color>
+    <color name="item_bg_color">#ffffffff</color>
+    <color name="skin_text_color">#ffffffff</color>
+    <color name="gray">#ffdcdcdc</color>
+    <color name="white">#ffffffff</color>
+    <color name="disable">#ffdcdcdc</color>
+    <color name="enable">#ffffffff</color>
+    <color name="yellow">#ff00ffff</color>
+    <color name="ad_big_title_color">#ffeff3f7</color>
+    <color name="ad_sub_title_color">#ff336caa</color>
+    <color name="ad_time_color">#ffababab</color>
+    <color name="ad_body_color">#ff101010</color>
+    <color name="name">#ff3774a1</color>
+    <color name="loading">#ff5f98b8</color>
+    <color name="black">#ff000000</color>
+    <color name="green">#ff00ff00</color>
+    <color name="textColor">#ffffffff</color>
+</resources>

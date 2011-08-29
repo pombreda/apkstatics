@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/friend_group_manager_item" android:background="@drawable/opt_selectitem" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginLeft="3.0dip" android:layout_marginRight="3.0dip">
+        <ImageView android:id="@id/group_divider_top" android:background="@drawable/info_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignWithParentIfMissing="true" />
+        <ImageView android:id="@id/group_manager_delete" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:src="@drawable/delete_group_button" android:layout_alignParentRight="true" />
+        <ImageView android:id="@id/group_manager_rename" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="3.0dip" android:src="@drawable/rename_group_button" android:layout_toLeftOf="@id/group_manager_delete" />
+        <TextView android:gravity="center_vertical" android:id="@id/name" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:text="name" android:singleLine="true" android:layout_toLeftOf="@id/group_manager_rename" style="\@style/feedlist_group_item_name" />
+        <ImageView android:id="@id/group_divider_bottom" android:background="@drawable/info_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_alignWithParentIfMissing="true" />
+    </RelativeLayout>
+</LinearLayout>

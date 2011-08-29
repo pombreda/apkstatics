@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/chat_msgitem" android:background="?chat_selectitem" android:paddingLeft="5.0dip" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textStyle="bold" android:gravity="center_vertical" android:id="@id/chat_msg" android:visibility="visible" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="lala lala la a" style="\@style/msg_item_chat_msg" />
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/chat_timestamp" android:visibility="visible" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_below="@id/chat_msg" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="\@style/msg_item_chat_timestamp" />
+    </RelativeLayout>
+    <View android:id="@id/chat_divder" android:background="@drawable/chat_divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignWithParentIfMissing="false" />
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/friendMgrBoby" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/contactHeader" android:layout_alignParentLeft="true" layout="\@layout/contact_header" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/item_bg" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+            <RelativeLayout android:id="@id/changeAlterNameItem" android:background="@drawable/opt_selectitem" android:focusable="true" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <TextView android:gravity="center_vertical" android:id="@id/changeAlterName" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/change_altername" style="\@style/friend_manager_changeAlterName" />
+                <TextView android:gravity="right|center" android:id="@id/alterName" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" style="\@style/friend_manager_alterName" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/item_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip">
+            <RelativeLayout android:id="@id/sendMsgItem" android:background="@drawable/opt_selectitem" android:focusable="true" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <TextView android:id="@id/open_conversation" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/open_conversation" android:layout_centerVertical="true" style="\@style/friend_manager_open_conversation" />
+                <ImageView android:background="@drawable/go_next_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:id="@id/divder2" android:background="@drawable/info_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignWithParentIfMissing="false" />
+            <RelativeLayout android:id="@id/detailInfoItem" android:background="@drawable/opt_selectitem" android:focusable="true" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <TextView android:id="@id/open_detail_info" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/open_detail_info" android:layout_centerVertical="true" style="\@style/friend_manager_open_detail_info" />
+                <ImageView android:background="@drawable/go_next_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:id="@id/divder3" android:background="@drawable/info_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignWithParentIfMissing="false" />
+            <RelativeLayout android:id="@id/viewChatHistoryItem" android:background="@drawable/opt_selectitem" android:focusable="true" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <TextView android:id="@id/viewChatHistory" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/view_chat_history" android:layout_centerVertical="true" style="\@style/friend_manager_viewChatHistory" />
+                <ImageView android:background="@drawable/go_next_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:id="@id/divder4" android:background="@drawable/info_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignWithParentIfMissing="false" />
+            <RelativeLayout android:id="@id/viewQzoneItem" android:background="@drawable/opt_selectitem" android:focusable="true" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <TextView android:id="@id/open_Qzone" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/open_Qzone" android:layout_centerVertical="true" style="\@style/friend_manager_open_Qzone" />
+                <ImageView android:background="@drawable/go_next_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:id="@id/divder5" android:background="@drawable/info_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignWithParentIfMissing="false" />
+            <RelativeLayout android:id="@id/view_send_mail" android:background="@drawable/opt_selectitem" android:focusable="true" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <TextView android:id="@id/send_mail_to" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/send_mail" android:layout_centerVertical="true" style="\@style/friend_manager_send_mail" />
+                <ImageView android:background="@drawable/go_next_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/item_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip">
+            <RelativeLayout android:id="@id/change_friend_group_item" android:background="@drawable/opt_selectitem" android:focusable="true" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <TextView android:id="@id/change_friend_group" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/change_friend_group" android:layout_centerVertical="true" style="\@style/friend_manager_viewDelHistory" />
+                <ImageView android:background="@drawable/go_next_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:id="@id/divder4" android:background="@drawable/info_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignWithParentIfMissing="false" />
+            <RelativeLayout android:id="@id/delete_contactItem" android:background="@drawable/opt_selectitem" android:focusable="true" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <TextView android:gravity="center_vertical" android:id="@id/deleteItem" android:background="@drawable/opt_selectitem" android:paddingLeft="10.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="@string/delete_contact" android:layout_centerVertical="true" style="\@style/friend_manager_deleteItem" />
+            </RelativeLayout>
+            <View android:id="@id/divder4" android:background="@drawable/info_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignWithParentIfMissing="false" />
+            <RelativeLayout android:id="@id/viewDelHistoryItem" android:background="@drawable/opt_selectitem" android:focusable="true" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <TextView android:id="@id/viewDelHistory" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/view_delete_history" android:layout_centerVertical="true" style="\@style/friend_manager_viewDelHistory" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

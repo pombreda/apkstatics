@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:gravity="center_vertical" android:id="@id/addByID" android:background="?qq_selectitem_bg" android:paddingLeft="10.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="按号码添加" android:drawableRight="@drawable/expand" style="\@style/add_friend_addByID" />
+        <RelativeLayout android:id="@id/ViewByID" android:layout="@layout/add_friend_by_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_below="@id/addByID" android:layout_alignWithParentIfMissing="true" />
+        <View android:id="@id/divder1" android:background="@drawable/line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="5.0dip" android:layout_below="@id/ViewByID" android:layout_alignWithParentIfMissing="false" />
+        <TextView android:gravity="center_vertical" android:id="@id/addByNick" android:background="?qq_selectitem_bg" android:paddingLeft="10.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="按昵称添加" android:drawableRight="@drawable/expand" android:layout_below="@id/divder1" style="\@style/add_friend_addByNick" />
+        <RelativeLayout android:id="@id/ViewByNick" android:layout="@layout/add_friend_by_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_below="@id/addByNick" android:layout_alignWithParentIfMissing="true" />
+        <View android:id="@id/divder2" android:background="@drawable/line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="5.0dip" android:layout_below="@id/ViewByNick" android:layout_alignWithParentIfMissing="false" />
+        <TextView android:gravity="center_vertical" android:id="@id/addByCondition" android:background="?qq_selectitem_bg" android:paddingLeft="10.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="按条件添加" android:drawableRight="@drawable/expand" android:layout_below="@id/divder2" style="\@style/add_friend_addByCondition" />
+        <RelativeLayout android:id="@id/ViewByCondition" android:layout="@layout/add_friend_by_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_below="@id/addByCondition" android:layout_alignWithParentIfMissing="true" />
+        <View android:background="@drawable/line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="5.0dip" android:layout_below="@id/ViewByCondition" />
+    </LinearLayout>
+</ScrollView>

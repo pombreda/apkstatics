@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/loginRoot" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <RelativeLayout android:id="@id/RelativeLayout02" android:background="@drawable/login_back" android:paddingTop="10.0dip" android:paddingBottom="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="62.0dip" android:layout_marginRight="15.0dip">
+            <ImageView android:id="@id/faceImg" android:background="@drawable/login_head" android:layout_width="75.0dip" android:layout_height="93.0dip" />
+            <EditText android:id="@id/login_edit_account" android:background="@drawable/qq_edit_login" android:paddingLeft="45.0dip" android:saveEnabled="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:hint="@string/strInputAccHint" android:maxLength="10" android:layout_toRightOf="@id/faceImg" android:layout_alignParentTop="true" android:inputType="number" style="\@style/loginpage_EditText" />
+            <TextView android:gravity="center_vertical" android:id="@id/TextView01" android:paddingLeft="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:text="@string/strAccInputLabel" android:layout_alignLeft="@id/login_edit_account" android:layout_alignTop="@id/login_edit_account" android:layout_alignBottom="@id/login_edit_account" style="\@style/loginpage_TextView01" />
+            <ImageButton android:id="@id/ImageButton02" android:background="?more_select_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="1.0dip" android:layout_alignTop="@id/login_edit_account" android:layout_alignRight="@id/login_edit_account" android:layout_alignBottom="@id/login_edit_account" />
+            <EditText android:id="@id/login_edit_pwd" android:background="@drawable/qq_edit_login" android:paddingLeft="45.0dip" android:saveEnabled="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="1.0dip" android:maxLength="16" android:layout_below="@id/login_edit_account" android:layout_alignLeft="@id/login_edit_account" android:layout_alignRight="@id/login_edit_account" android:inputType="textPassword" style="\@style/loginpage_EditText" />
+            <TextView android:gravity="center_vertical" android:id="@id/TextView02" android:paddingLeft="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strPswInputLabel" android:layout_alignTop="@id/login_edit_pwd" android:layout_alignRight="@id/TextView01" android:layout_alignBottom="@id/login_edit_pwd" style="\@style/loginpage_TextView02" />
+            <CheckBox android:textSize="16.0sp" android:id="@id/login_cb_savepwd" android:paddingLeft="25.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:button="@drawable/qq_btn_check" android:text="@string/opt_remember" android:layout_below="@id/login_edit_pwd" style="\@style/loginpage_login_cb_savepwd" />
+            <CheckBox android:textSize="16.0sp" android:id="@id/login_cb_auto" android:paddingLeft="25.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:button="@drawable/qq_btn_check" android:text="@string/auto_login" android:layout_below="@id/login_edit_pwd" android:layout_alignRight="@id/login_edit_pwd" style="\@style/loginpage_login_cb_savepwd" />
+            <Button android:id="@id/login_btn_login" android:layout_width="200.0dip" android:layout_height="42.0dip" android:text="@string/login" android:layout_below="@id/login_cb_savepwd" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <TableLayout android:id="@id/TableLayout01" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:stretchColumns="1">
+            <TableRow>
+                <CheckBox android:id="@id/login_cb_visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/opt_hideLogin" style="\@style/loginpage_checkbox" />
+                <CheckBox android:layout_gravity="right" android:id="@id/login_cb_openvibra" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/opt_openVibra" style="\@style/loginpage_checkbox" />
+            </TableRow>
+            <TableRow>
+                <CheckBox android:id="@id/login_cb_receivegroupmsg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/opt_acceptGroupMsg" style="\@style/loginpage_checkbox" />
+                <CheckBox android:layout_gravity="right" android:id="@id/login_cb_quite" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/opt_silent" style="\@style/loginpage_checkbox" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/RelativeLayout01" android:background="?bottom_bg" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <ImageButton android:id="@id/login_option" android:background="?qq_option_bg" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:layout_marginTop="2.0dip" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextView android:textSize="18.0dip" android:gravity="center" android:id="@id/text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="当前正在使用的皮肤被卸载, QQ将自动恢复为默认皮肤"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

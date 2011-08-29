@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<skin>
+	<item>
+		<packagename data="qq.skin.black" />
+		<title data="雅致酷黑" />
+		<downdir
+			data="http://221.130.15.35:8080/;http://211.137.127.202:80/;http://211.137.127.200:80/" />
+		<file
+			data="resource/NQQSoft/skin_2010/android/480x320/com_tencent_skin_black.apk" />
+		<size data="501702" />
+		<icon data="resource/NQQSoft/skin_2010/android/480x320/Black.png" />
+	</item>
+	<item>
+		<packagename data="qq.skin.green" />
+		<title data="青葱岁月" />
+		<downdir
+			data="http://221.130.15.35:8080/;http://211.137.127.202:80/;http://211.137.127.200:80/" />
+		<file
+			data="resource/NQQSoft/skin_2010/android/480x320/com_tencent_skin_green.apk" />
+		<size data="681757" />
+		<icon data="resource/NQQSoft/skin_2010/android/480x320/Green.png" />
+	</item>
+	<item>
+		<packagename data="qq.skin.outdoor" />
+		<title data="户外模式" />
+		<downdir
+			data="http://221.130.15.35:8080/;http://211.137.127.202:80/;http://211.137.127.200:80/" />
+		<file
+			data="resource/NQQSoft/skin_2010/android/480x320/com_tencent_skin_outdoor.apk" />
+		<size data="536638" />
+		<icon data="resource/NQQSoft/skin_2010/android/480x320/Outdoor.png" />
+	</item>
+	<item>
+		<packagename data="qq.skin.night" />
+		<title data="夜间模式" />
+		<downdir
+			data="http://221.130.15.35:8080/;http://211.137.127.202:80/;http://211.137.127.200:80/" />
+		<file
+			data="resource/NQQSoft/skin_2010/android/480x320/com_tencent_skin_night.apk" />
+		<size data="567458" />
+		<icon data="resource/NQQSoft/skin_2010/android/480x320/Night.png" />
+	</item>
+</skin>

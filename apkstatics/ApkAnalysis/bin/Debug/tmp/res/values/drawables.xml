@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="drawable" name="shader1">#7f7f7f7f</item>
+    <item type="drawable" name="highlight">#cf7f7f7f</item>
+    <item type="drawable" name="barbg">#ef0a4267</item>
+    <item type="drawable" name="trans">#00000000</item>
+    <item type="drawable" name="chatdivider">#ffd6dadc</item>
+</resources>

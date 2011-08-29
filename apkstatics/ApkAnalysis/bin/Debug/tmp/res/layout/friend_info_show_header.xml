@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.qq.widget.CustomedHeadShow android:id="@id/title_face" android:layout_width="50.0dip" android:layout_height="45.0dip" />
+    <TextView android:id="@id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="@string/friend_info_title" style="\@style/friend_info_show_header_TextView01" />
+</LinearLayout>

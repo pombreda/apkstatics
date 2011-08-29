@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@id/RelativeLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@id/qq_dialog_msg_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="18.0dip" android:layout_marginBottom="18.0dip" android:text="您还未登录QQ，立即登录？" style="\@style/widget_dialog_qq_dialog_msg_id" />
+    <LinearLayout android:id="@id/btn_pane" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/qq_dialog_msg_id">
+        <Button android:id="@id/ok_btn" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="确定" android:layout_weight="1.0" />
+        <Button android:id="@id/cancel_btn" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="取消" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/chatbuddy_rl" android:background="?bodylisttop_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/chatbuddy_lin_img" android:clickable="true" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="2.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/chatbuddy_lin_textlayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_weight="1.0" android:layout_toRightOf="@id/chatbuddy_lin_img">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:ellipsize="end" android:id="@id/chatbuddy_lin_name" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:minWidth="150.0dip" android:singleLine="true" style="\@style/chat_header_linear_chatbuddy_lin_name" />
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:ellipsize="end" android:id="@id/chatbuddy_lin_sig" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_marginBottom="0.0dip" android:minWidth="150.0dip" android:text="signature signature signature" android:singleLine="true" style="\@style/chat_header_linear_chatbuddy_lin_sig" />
+    </LinearLayout>
+    <ImageButton android:id="@id/chatwindow_lin_exit" android:background="?qq_close_bg" android:layout_width="wrap_content" android:layout_height="30.0px" android:layout_marginLeft="15.0dip" android:layout_marginTop="0.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</LinearLayout>

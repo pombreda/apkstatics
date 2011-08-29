@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/LinearLayoutTitle" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="日志标题" />
+            <TextView android:id="@id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="老莫 发表于 2010年4月5日" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/LinearLayoutBody" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="vertical" android:id="@id/LinearLayoutComment" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="评论列表" />
+            <LinearLayout android:id="@id/LinearLayoutCommentList" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

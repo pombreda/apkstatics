@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/chat_dummy_view1" android:background="?bodylisttop_bg" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="40.0dip" />
+    <ImageView android:id="@id/chat_dummy_view2" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_below="@id/chat_dummy_view1" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/chatbuddy_gal_bottom" android:background="?chating_title_bg" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="2.0dip" android:layout_below="@id/chat_dummy_view1">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/chatbuddy_gal_txt" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginBottom="0.0dip" android:singleLine="true" android:layout_weight="1.0" />
+        <ImageButton android:layout_gravity="center" android:id="@id/chatwindow_gal_exit" android:background="?qq_close_bg" android:clickable="true" android:layout_width="50.0dip" android:layout_height="30.0dip" android:layout_marginLeft="15.0dip" />
+    </LinearLayout>
+    <view android:id="@id/chat_talkselect" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_alignParentTop="true" class="com.tencent.qq.ui.ChatTalkSelect" />
+    <view android:id="@id/chat_gallery" android:paddingLeft="3.0dip" android:paddingRight="4.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="38.0dip" android:layout_alignParentLeft="true" class="com.tencent.qq.ui.ChatHeaderGallery" />
+</RelativeLayout>

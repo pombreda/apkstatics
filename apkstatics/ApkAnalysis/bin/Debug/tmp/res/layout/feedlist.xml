@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/LinearLayout01" android:background="@drawable/feedlist_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/to_shuoshuo" android:padding="0.0px" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="3.0dip" android:layout_marginBottom="3.0dip" style="\@style/QQEditText">
+        <ImageView android:id="@id/ImageViewCamera" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/camera" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="说说正在发生的事......" style="\@style/feedlist_text" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.qq.widget.IphoneTreeView android:id="@id/ListViewFeeds" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/qzone_feedlist_select" android:scrollingCache="true" android:groupIndicator="?expander_group_bg" android:indicatorLeft="-10.0dip" android:childIndicatorRight="14.0dip" android:childDivider="?chat_divider" android:divider="@drawable/trans" android:dividerHeight="1.0px" />
+    </FrameLayout>
+</LinearLayout>

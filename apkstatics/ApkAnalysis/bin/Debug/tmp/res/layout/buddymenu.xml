@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ListView01" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:enabled="true" android:padding="5.0dip" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="发起聊天" />
+    <TextView android:enabled="true" android:padding="5.0dip" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="查看详细资料" />
+    <TextView android:enabled="true" android:padding="5.0dip" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="删除好友" />
+</LinearLayout>

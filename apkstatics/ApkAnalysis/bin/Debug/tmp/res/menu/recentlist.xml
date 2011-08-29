@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/menu_clean_rec" android:id="@id/remove_rec" android:menuCategory="system" android:title="清除联系人列表" />
+    <item android:icon="@drawable/menu_sys_search_buddy" android:id="@id/search_buddy" android:menuCategory="system" android:title="@string/menu_search_buddy" />
+    <item android:icon="@drawable/menu_sys_opt" android:id="@id/system_opt" android:menuCategory="system" android:title="@string/menu_setting" />
+    <item android:icon="@drawable/menu_logout" android:id="@id/switch_accout" android:menuCategory="system" android:title="@string/menu_switch_accout" />
+    <item android:icon="@drawable/exit_menu_icon" android:id="@id/logout" android:menuCategory="system" android:title="@string/menu_logout_and_exit" />
+    <item android:icon="@drawable/menu_help" android:id="@id/help" android:menuCategory="system" android:title="@string/menu_help_and_update" />
+</menu>

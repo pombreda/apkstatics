@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/moodcommentItem" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/moodcommentItem" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:id="@id/ImageViewUserIcon" android:background="@drawable/usericon" android:layout_width="34.0px" android:layout_height="34.0px" android:layout_marginLeft="10.0px" android:layout_marginTop="8.0px" android:layout_marginRight="8.0px" android:src="@drawable/head" />
+        <LinearLayout android:orientation="vertical" android:id="@id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:id="@id/TextViewUserName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0px" style="\@style/listNameTextStyle" />
+            <TextView android:id="@id/TextViewComment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0px" style="\@style/commentwithdivider_TextViewComment" />
+            <TextView android:id="@id/TextViewTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0px" style="\@style/unnoticeableTextStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/ImageView01" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0px" android:src="@drawable/line" />
+</LinearLayout>

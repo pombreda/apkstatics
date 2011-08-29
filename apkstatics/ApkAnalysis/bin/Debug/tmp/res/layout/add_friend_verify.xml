@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@id/detail" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="您将添加以下好友，对方要求身份验证" />
+    <View android:id="@id/divder1" android:background="@drawable/line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="5.0dip" android:layout_below="@id/tip" android:layout_alignWithParentIfMissing="false" />
+    <ImageView android:id="@id/faceicon" android:padding="4.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_below="@id/divder1" />
+    <TextView android:textSize="20.0dip" android:gravity="left" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:scrollHorizontally="true" android:layout_toRightOf="@id/faceicon" android:layout_alignTop="@id/faceicon" />
+    <Button android:id="@id/Button01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginRight="20.0dip" android:text="发送" android:layout_below="@id/name" android:layout_alignParentRight="true" />
+    <EditText android:id="@id/input" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="" android:singleLine="true" android:maxLength="15" android:layout_toLeftOf="@id/Button01" android:layout_alignTop="@id/Button01" />
+</RelativeLayout>

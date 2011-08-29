@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ImageViewUserIcon" android:background="@drawable/usericon" android:layout_width="34.0dip" android:layout_height="34.0dip" android:layout_marginLeft="10.0px" android:layout_marginTop="7.0dip" android:layout_marginRight="6.0dip" android:src="@drawable/head" />
+    <LinearLayout android:orientation="vertical" android:id="@id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0px" android:layout_weight="1.0" android:layout_toRightOf="@id/ImageViewUserIcon">
+        <TextView android:id="@id/TextViewUserName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="userName" android:layout_weight="1.0" style="\@style/feed_TextViewUserName" />
+        <TextView android:ellipsize="end" android:id="@id/TextViewTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="title" android:layout_weight="1.0" style="\@style/feed_TextViewTitle" />
+        <ImageView android:id="@id/ImageViewPointerLine" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0px" android:layout_marginBottom="5.0px" android:src="@drawable/pointerline" />
+        <TextView android:ellipsize="end" android:id="@id/TextViewSummary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Summary" android:maxLines="2" android:layout_weight="1.0" style="\@style/feed_TextViewSummary" />
+        <ImageView android:id="@id/ImageViewPhoto" android:background="@drawable/mood_photobg" android:paddingLeft="5.0px" android:paddingTop="4.0px" android:paddingRight="5.0px" android:paddingBottom="10.0px" android:visibility="gone" android:layout_width="84.0dip" android:layout_height="90.0dip" android:layout_marginTop="5.0px" android:layout_marginBottom="5.0px" />
+    </LinearLayout>
+    <TextView android:id="@id/TextViewTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0px" android:text="time" android:layout_below="@id/LinearLayout01" android:layout_alignLeft="@id/LinearLayout01" style="\@style/feed_TextViewTime" />
+    <TextView android:id="@id/TextViewComment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="222" android:layout_toRightOf="@id/TextViewTime" android:layout_alignBaseline="@id/TextViewTime" style="\@style/feed_TextViewComment" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.tencent.qq.widget.CustomedTabWidget android:id="@id/LinearLayout01" android:background="@color/transparent" android:paddingTop="0.0dip" android:paddingBottom="4.0dip" android:focusable="false" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="0.0dip" android:layout_below="@id/title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ImageView01" android:paddingTop="3.0dip" android:paddingBottom="2.0dip" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="0.0dip" android:layout_marginBottom="0.0dip" android:src="?tab1_bg" android:layout_weight="1.0" />
+    <ImageView android:id="@id/ImageView02" android:paddingTop="3.0dip" android:paddingBottom="2.0dip" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="0.0dip" android:layout_marginBottom="0.0dip" android:src="?tab2_bg" android:layout_weight="1.0" />
+    <ImageView android:id="@id/ImageView03" android:paddingTop="3.0dip" android:paddingBottom="2.0dip" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="0.0dip" android:layout_marginBottom="0.0dip" android:src="?tab3_bg" android:layout_weight="1.0" />
+</com.tencent.qq.widget.CustomedTabWidget>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/input_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:background="?bodylisttop_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="0.0px" android:layout_height="wrap_content" android:text="@string/shuoshuo" android:layout_weight="1.0" style="\@style/inputdialog_shuoshuo" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/synchronize" style="\@style/inputdialog_synchronize" />
+        <ImageView android:id="@id/synchronize_signature" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/synchronize_signature_disable" />
+        <ImageView android:id="@id/synchronize_blog" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/synchronize_blog_disable" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/FrameLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <EditText android:gravity="top" android:id="@id/entry" android:paddingLeft="6.0px" android:paddingRight="6.0px" android:layout_width="fill_parent" android:layout_height="fill_parent" android:selectAllOnFocus="true" android:maxLength="140" />
+        <ImageView android:layout_gravity="bottom" android:id="@id/preview" android:background="@drawable/preview_bg" android:paddingLeft="12.0px" android:paddingTop="12.0px" android:paddingRight="7.0px" android:paddingBottom="7.0px" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="6.0px" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?bottom_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/ImageViewCamera" android:padding="0.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/camera_s" />
+        <TextView android:id="@id/TextViewCharCnt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0px" android:text="0/140" style="\@style/inputdialog_TextViewCharCnt" />
+        <Button android:enabled="false" android:id="@id/ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/send" android:layout_weight="1.0" />
+        <Button android:id="@id/cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

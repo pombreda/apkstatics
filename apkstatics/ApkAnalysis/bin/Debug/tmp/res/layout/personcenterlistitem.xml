@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ImageViewLeft" android:layout_width="34.0px" android:layout_height="34.0px" android:layout_marginLeft="10.0px" android:layout_marginTop="7.0px" android:layout_marginRight="6.0px" android:src="@drawable/head" android:scaleType="centerCrop" />
+    <LinearLayout android:orientation="vertical" android:id="@id/LinearLayout03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0px" android:layout_marginRight="5.0px" android:layout_weight="1.0">
+        <TextView android:id="@id/TextViewName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0px" style="\@style/personcenterlistitem_TextViewName" />
+        <TextView android:ellipsize="end" android:id="@id/TextViewContent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0px" android:layout_marginBottom="2.0px" android:singleLine="true" android:layout_weight="1.0" style="\@style/personcenterlistitem_TextViewContent" />
+        <TextView android:textSize="12.0px" android:id="@id/TextViewTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0px" style="\@style/unnoticeableTextStyle" />
+    </LinearLayout>
+    <TextView android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/TextViewCommentCnt" android:background="@drawable/comment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0px" android:layout_marginRight="10.0px" style="\@style/personcenterlistitem_TextViewCommentCnt" />
+</LinearLayout>

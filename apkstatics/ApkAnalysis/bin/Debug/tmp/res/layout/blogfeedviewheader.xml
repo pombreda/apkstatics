@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/LinearLayoutTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="2.0px">
+        <LinearLayout android:orientation="vertical" android:id="@id/LinearLayout03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0px" android:layout_weight="1.0">
+            <TextView android:textStyle="bold" android:id="@id/TextViewTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0px" style="\@style/blogfeedviewheader_TextViewTitle" />
+            <TextView android:id="@id/TextViewTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" style="\@style/blogfeedviewheader_TextViewTime" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:background="#ffd3dce4" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <WebView android:id="@id/webViewBlogFeed" android:background="#ffffffff" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0px" android:layout_marginBottom="6.0px" android:layout_weight="1.0" />
+    <TextView android:id="@id/TextViewCommentCntHeader" android:background="@drawable/cmtcntbg" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

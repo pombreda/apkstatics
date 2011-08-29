@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TabHost android:id="@android:id/tabhost" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:background="?bodylisttop_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="\@layout/qq_main_header" />
+        </LinearLayout>
+        <FrameLayout android:id="@android:id/tabcontent" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0" />
+        <TabWidget android:gravity="center_vertical" android:id="@android:id/tabs" android:background="?bottom_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</TabHost>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/chatbuddy_dbl_img" android:padding="4.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/chatbuddy_dbl_textlayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/chatbuddy_dbl_name" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:textScaleX="1.2" android:shadowColor="@color/white" android:shadowDx="2.0" android:shadowDy="2.0" android:shadowRadius="2.0" android:layout_toRightOf="@id/chatbuddy_dbl_img" style="\@style/chat_header_double_chatbuddy_dbl_name" />
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:ellipsize="end" android:id="@id/chatbuddy_dbl_sig" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:text="signature signature" android:singleLine="true" style="\@style/chat_header_double_chatbuddy_dbl_sig" />
+    </LinearLayout>
+    <ImageButton android:id="@id/chatwindow_dbl_exit" android:background="?qq_close_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" style="\?android:buttonStyle" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:layout_gravity="bottom" android:background="?bottom_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="更新签名" android:drawableLeft="@drawable/newsign" style="\@style/newsign_title" />
+    <Button android:id="@id/Button01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="确定" android:layout_below="@id/title" android:layout_alignParentRight="true" />
+    <EditText android:id="@id/signature" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="50" android:layout_toLeftOf="@id/Button01" android:layout_below="@id/title" />
+</RelativeLayout>

@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="Theme.SplashTheme" parent="@android:style/Theme">
+        <item name="android:windowBackground">@drawable/splash</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="ChatSelfPreference" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff428a11</item>
+    </style>
+    <style name="ChatBuddyPreference" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff007d9c</item>
+    </style>
+    <style name="ChatDatePreference" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="ChatMSGPreference" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff2d2d2d</item>
+    </style>
+    <style name="ChatSignaturePreference" parent="@android:style/TextAppearance">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#7a000000</item>
+    </style>
+    <style name="ChatNamePreference" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:textScaleX">1.2</item>
+        <item name="android:shadowColor">#ffffffff</item>
+        <item name="android:shadowDx">2.0</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+    <style name="FeedUpadteText" parent="@android:style/TextAppearance">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ff949494</item>
+    </style>
+    <style name="CustomedMenu">
+        <item name="android:windowBackground">@drawable/trans</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="MyDialogStyle">
+        <item name="android:textAppearance">@android:style/TextAppearance.DialogWindowTitle</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+    </style>
+    <style name="qqAlertDialog" parent="@android:style/Theme.WallpaperSettings" />
+    <style name="MyListView" parent="@android:style/Widget.ListView">
+        <item name="android:listSelector">@drawable/selectitem</item>
+        <item name="android:scrollingCache">true</item>
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:divider">@drawable/line</item>
+    </style>
+    <style name="QQExpandableListView" parent="@android:style/Widget.ExpandableListView">
+        <item name="android:listSelector">@drawable/selectitem</item>
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:childDivider">@null</item>
+        <item name="android:divider">@null</item>
+    </style>
+    <style name="MyCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/qq_checkbox_text_color</item>
+        <item name="android:paddingLeft">28.0dip</item>
+        <item name="android:button">@drawable/qq_btn_check</item>
+    </style>
+    <style name="QQButton" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/qqbtn_text_color</item>
+        <item name="android:background">@drawable/qq_btn</item>
+    </style>
+    <style name="QQImageButton" parent="@android:style/Widget.ImageButton">
+        <item name="android:background">@drawable/qq_btn</item>
+    </style>
+    <style name="QQEditText" parent="@android:style/Widget.EditText">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColorHighlight">#ffe1e1e1</item>
+        <item name="android:textColorHint">#ffcbd4d9</item>
+        <item name="android:background">@drawable/qq_edit_text1</item>
+    </style>
+    <style name="QQRadioButton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:textColor">@color/qq_checkbox_text_color</item>
+        <item name="android:button">@drawable/qq_btn_radio</item>
+    </style>
+    <style name="QQProgressBar" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progressbar</item>
+    </style>
+    <style name="QQThemeDefault" parent="@android:style/Theme">
+        <item name="android:buttonStyle">@style/QQButton</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:alertDialogStyle">@style/qqAlertDialog</item>
+        <item name="android:scrollbarThumbVertical">@drawable/qq_scrollbar</item>
+        <item name="android:editTextStyle">@style/QQEditText</item>
+        <item name="android:expandableListViewStyle">@style/QQExpandableListView</item>
+        <item name="android:imageButtonStyle">@style/QQImageButton</item>
+        <item name="android:listViewStyle">@style/MyListView</item>
+        <item name="android:progressBarStyle">@style/QQProgressBar</item>
+        <item name="android:radioButtonStyle">@style/QQRadioButton</item>
+        <item name="android:textSize">18.0sp</item>
+        <item name="back_btn_bg">@drawable/back_btn</item>
+        <item name="bodylisttop_bg">@drawable/bodylisttop</item>
+        <item name="bottom_bg">@drawable/bottom</item>
+        <item name="bottombar_2_bg">@drawable/bottombar_2</item>
+        <item name="qq_close_bg">@drawable/chat_lin_quit</item>
+        <item name="qq_checkbox_style">@style/MyCheckBox</item>
+        <item name="qq_radioButtonStyle">@style/QQRadioButton</item>
+        <item name="qq_selectitem_bg">@drawable/selectitem</item>
+        <item name="qq_cancel_bg">@drawable/cancel_btn</item>
+        <item name="qq_talk_select_bg">@drawable/chat_talkselect</item>
+        <item name="qq_history_button_bg">@drawable/chat_history_button</item>
+        <item name="qq_option_bg">@drawable/option</item>
+        <item name="qq_prev_page_bg">@drawable/chat_prev_page</item>
+        <item name="qq_next_page_bg">@drawable/chat_next_page</item>
+        <item name="contextbtn_bg">@drawable/contextbtn</item>
+        <item name="expander_group_bg">@drawable/expander_group</item>
+        <item name="chating_title_bg">@drawable/chating_title</item>
+        <item name="more_select_bg">@drawable/more_select</item>
+        <item name="expand_group_bar_bg">@drawable/expand_group_bar</item>
+        <item name="highlight_item_bg">@drawable/highlight_item</item>
+        <item name="export_history_img">@drawable/export_history_button</item>
+        <item name="delete_history_img">@drawable/delete_history_button</item>
+        <item name="tab1_bg">@drawable/tab1</item>
+        <item name="tab2_bg">@drawable/tab2</item>
+        <item name="tab3_bg">@drawable/tab3</item>
+        <item name="info_divider">@drawable/info_divider</item>
+        <item name="chat_selectitem">@drawable/chat_selectitem</item>
+        <item name="chat_divider">@drawable/chat_divider</item>
+        <item name="camera_s">@drawable/camera_s</item>
+    </style>
+    <style name="WidgetItem">
+        <item name="android:background">@drawable/widget_item</item>
+    </style>
+    <style name="WidgetAddDelete">
+        <item name="android:src">@drawable/widget_add_delete</item>
+    </style>
+    <style name="WidgetQQ">
+        <item name="android:src">@drawable/widget_qq</item>
+    </style>
+    <style name="qZoneListProgressStyle" parent="@android:style/Widget.ProgressBar.Small">
+        <item name="android:indeterminateDrawable">@anim/loading</item>
+    </style>
+    <style name="qZoneWaitingProgressStyle" parent="@android:style/Widget.ProgressBar.Small">
+        <item name="android:indeterminateDrawable">@drawable/waiting</item>
+    </style>
+    <style name="qZoneInputDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="qZoneReplyDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+    <style name="theme_customerTitle" parent="@android:style/Theme.Light">
+        <item name="android:windowTitleSize">25.0dip</item>
+        <item name="android:windowTitleBackgroundStyle">@style/WindowTitleBackground</item>
+        <item name="android:windowAnimationStyle">@style/Animation</item>
+        <item name="android:shadowColor">#00ffffff</item>
+        <item name="android:shadowRadius">0.0</item>
+    </style>
+    <style name="WindowTitleBackground">
+        <item name="android:background">@drawable/title</item>
+    </style>
+    <style name="splashscreen">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@drawable/splash</item>
+    </style>
+    <style name="unnoticeableTextStyle" parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:textColor">#ffd3d3d3</item>
+    </style>
+    <style name="listNameTextStyle" parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/name</item>
+    </style>
+    <style name="nameTextStyle" parent="@android:style/TextAppearance.Large">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@color/name</item>
+    </style>
+    <style name="tabTextStyle" parent="@android:style/TextAppearance.Large">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/name</item>
+    </style>
+    <style name="buttonTextStyle" parent="@android:style/TextAppearance.Large">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="apptheme" parent="@android:style/Theme">
+        <item name="android:windowAnimationStyle">@style/Animation</item>
+    </style>
+    <style name="Animation">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+        <item name="android:taskOpenEnterAnimation">@null</item>
+        <item name="android:taskOpenExitAnimation">@null</item>
+        <item name="android:taskCloseEnterAnimation">@null</item>
+        <item name="android:taskCloseExitAnimation">@null</item>
+        <item name="android:taskToFrontEnterAnimation">@null</item>
+        <item name="android:taskToFrontExitAnimation">@null</item>
+        <item name="android:taskToBackEnterAnimation">@null</item>
+        <item name="android:taskToBackExitAnimation">@null</item>
+    </style>
+    <style name="userinfo_name">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="skin_text_color">
+        <item name="android:textColor">@color/skin_text_color</item>
+    </style>
+    <style name="qq_semi_transparent_white">
+        <item name="android:textColor">@color/qq_semi_transparent_white</item>
+    </style>
+    <style name="item_color">
+        <item name="android:textColor">@color/item_color</item>
+    </style>
+    <style name="add_friend_by_cond_text_province_id" parent="@style/skin_text_color" />
+    <style name="add_friend_by_cond_condinput01" parent="@style/qq_semi_transparent_white" />
+    <style name="add_friend_by_cond_text_age_id" parent="@style/skin_text_color" />
+    <style name="add_friend_by_cond_condinput02" parent="@style/qq_semi_transparent_white" />
+    <style name="add_friend_by_cond_text_gender_id" parent="@style/skin_text_color" />
+    <style name="add_friend_by_cond_condinput03" parent="@style/qq_semi_transparent_white" />
+    <style name="add_friend_addByID" parent="@style/skin_text_color" />
+    <style name="add_friend_addByNick" parent="@style/skin_text_color" />
+    <style name="add_friend_addByCondition" parent="@style/skin_text_color" />
+    <style name="albumgriditem_gridItemName">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="albumlistitem_albumName">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="albumlistitem_albumNumber">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="appitem_TextViewAppname">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="black_manager_text1" parent="@style/item_color" />
+    <style name="black_manager_text2" parent="@style/item_color" />
+    <style name="black_manager_viewChatHistory" parent="@style/item_color" />
+    <style name="black_manager_deleteItem" parent="@style/item_color" />
+    <style name="blogfeedview_replyInput">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">#ffbfbfbf</item>
+    </style>
+    <style name="blogfeedviewheader_TextViewTitle">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">#ff336caa</item>
+    </style>
+    <style name="blogfeedviewheader_TextViewTime">
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:textColor">#ffababab</item>
+    </style>
+    <style name="bloglistitem_blogText">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="browser_document_title">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ff071727</item>
+        <item name="android:background">#ffe0e0e0</item>
+    </style>
+    <style name="browser_label">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="buddylist_head_qq_num">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="buddylist_head_qq_nickname">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="chat_header_double_chatbuddy_dbl_name">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="chat_header_double_chatbuddy_dbl_sig">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#7a000000</item>
+    </style>
+    <style name="chat_header_linear_chatbuddy_lin_name">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="chat_header_linear_chatbuddy_lin_sig">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#7a000000</item>
+    </style>
+    <style name="chat_history_HistoryMsgTitle">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="chat_history_chat_his_page" />
+    <style name="check_inputQqId">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="check_inputpassWord">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="check_TextView01">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="check_TextView02">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="child_list_item_name">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="child_list_item_info">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#7fffffff</item>
+    </style>
+    <style name="comment_TextViewComment">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="commentlistheader_TextViewBack">
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="commentsview_replyInput">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">#ffbfbfbf</item>
+    </style>
+    <style name="commentwithdivider_TextViewComment">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="contact_group_item_name">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="contact_group_item_count">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#4dffffff</item>
+    </style>
+    <style name="feedlist_text" />
+    <style name="feedlist_group_item_name">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="feedlist_group_item_count">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="contact_header_title">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="feed_TextViewUserName">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ff3774a1</item>
+    </style>
+    <style name="feed_TextViewTitle">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="feed_TextViewSummary">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ff919191</item>
+    </style>
+    <style name="feed_TextViewTime">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ff919191</item>
+    </style>
+    <style name="feed_TextViewComment">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ff919191</item>
+    </style>
+    <style name="feedlistheader_TextViewRefresh">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ff5f98b8</item>
+    </style>
+    <style name="feedlistheader_TextViewUpdateTime">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ff919191</item>
+    </style>
+    <style name="feedlistheader_EditTextMood" parent="@style/QQEditText">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">#ffbfbfbf</item>
+        <item name="android:background">@drawable/qq_edit_text2</item>
+    </style>
+    <style name="friend_info_show_header_TextView01">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="friend_manager_changeAlterName" parent="@style/item_color" />
+    <style name="friend_manager_alterName" />
+    <style name="friend_manager_open_conversation" parent="@style/item_color" />
+    <style name="friend_manager_open_detail_info" parent="@style/item_color" />
+    <style name="friend_manager_viewChatHistory" parent="@style/item_color" />
+    <style name="friend_manager_open_Qzone" parent="@style/item_color" />
+    <style name="friend_manager_deleteItem" parent="@style/item_color" />
+    <style name="friend_manager_viewDelHistory" parent="@style/item_color" />
+    <style name="friend_manager_send_mail" parent="@style/item_color" />
+    <style name="group_list_item_name">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="group_list_item_info">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#7fffffff</item>
+    </style>
+    <style name="group_manager_group_info" parent="@style/item_color" />
+    <style name="group_manager_group_member" parent="@style/item_color" />
+    <style name="group_member_list_buddlist_txt_title">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="list_item_navigation_name">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/item_text_color</item>
+    </style>
+    <style name="listfootrefresh_TextView01">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="loadingdialog_loading">
+        <item name="android:textColor">@color/loading</item>
+    </style>
+    <style name="loginpage_TextView01">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ff3f3f3f</item>
+    </style>
+    <style name="loginpage_TextView02">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ff3f3f3f</item>
+    </style>
+    <style name="loginpage_EditText" />
+    <style name="loginpage_login_cb_savepwd">
+        <item name="android:textColor">#ff222222</item>
+    </style>
+    <style name="loginpage_checkbox" parent="@style/MyCheckBox">
+        <item name="android:textColor">#7fffffff</item>
+    </style>
+    <style name="msg_item_chat_msg">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="msg_item_chat_timestamp">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ffb3b9bd</item>
+    </style>
+    <style name="newsign_title">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="notification_app_running_message">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="notification_app_running_status_info">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="notification_app_running_time">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="personcenterheaderview_TextViewUserInfo">
+        <item name="android:textColor">#ff757575</item>
+    </style>
+    <style name="personcenterlistitem_TextViewName">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ff3774a1</item>
+    </style>
+    <style name="personcenterlistitem_TextViewContent">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="personcenterlistitem_TextViewCommentCnt">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="photocommentlistheader_TextViewUserInfo">
+        <item name="android:textColor">#ff757575</item>
+    </style>
+    <style name="photocommentlistheader_TextViewMood">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="profileview_profileName">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="profileview_profileSex">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="profileview_profileAge">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="profileview_profileBirth">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="profileview_profileConstellation">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="profileview_profileLocate">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="profileview_profileMatrimony">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="qq_dialog_frame_title">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="qq_dialog_progress_content_qq_dialog_msg_id">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="qq_dialog_progress_content_qq_dialog_msg_progress">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="qq_dialog_progress_content1_qq_dialog_msg_id">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="qq_edit_sign_TextView01">
+        <item name="android:textColor">@color/qq_current_sign_num_color</item>
+    </style>
+    <style name="qq_edit_sign_TextView02">
+        <item name="android:textColor">@color/qq_max_sign_num_color</item>
+    </style>
+    <style name="qq_info_list_item_1_TextView01">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ff919191</item>
+    </style>
+    <style name="qq_info_list_item_1_TextView02">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="qq_info_list_item_2_TextView01">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ff919191</item>
+    </style>
+    <style name="qq_info_list_item_2_TextView02">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="qq_main_header_title">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffeff3f7</item>
+    </style>
+    <style name="qq_option_list_item_1_TextView" />
+    <style name="qq_option_list_item_4_TextView01">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/skin_text_color</item>
+    </style>
+    <style name="qq_option_list_item_5_sign_text">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/qq_semi_transparent_white</item>
+    </style>
+    <style name="qq_option_list_item_6_TextView01">
+        <item name="android:textColor">@color/qq_semi_transparent_white</item>
+    </style>
+    <style name="qq_option_list_item_7_TextView01">
+        <item name="android:textColor">@color/qq_semi_transparent_white</item>
+    </style>
+    <style name="recent_list_item_name">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="recent_list_item_info">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#7fffffff</item>
+    </style>
+    <style name="saynamegroup_TextViewMood">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="search_result_showbuddy">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="setting_manager_myStatusTitle" parent="@style/item_color" />
+    <style name="setting_manager_myStatus" parent="@style/item_color" />
+    <style name="setting_manager_myDetail" parent="@style/item_color" />
+    <style name="setting_manager_signatureTitle" parent="@style/item_color" />
+    <style name="setting_manager_theme_set" parent="@style/item_color" />
+    <style name="setting_manager_signature">
+        <item name="android:textSize">18.0sp</item>
+    </style>
+    <style name="simeple_top_texttitle_TextView01">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="stranger_manager_open_conversation" parent="@style/item_color" />
+    <style name="stranger_manager_open_detail_info" parent="@style/item_color" />
+    <style name="stranger_manager_add_to_friend" parent="@style/item_color" />
+    <style name="stranger_manager_viewChatHistory" parent="@style/item_color" />
+    <style name="stranger_manager_deleteItem" parent="@style/item_color" />
+    <style name="verifydialog_TextView01">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="widget_child_list_item_name">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="widget_child_list_item_info">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#7fffffff</item>
+    </style>
+    <style name="widget_contact_group_item_name">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="widget_contact_group_item_count">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#4dffffff</item>
+    </style>
+    <style name="widget_dialog_qq_dialog_msg_id">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="widget_word_4_my_name">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="widget_word_4_word1">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="widget_word_4_word1_2">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffaaaaaa</item>
+    </style>
+    <style name="widget_word_4_word2">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="widget_word_4_word2_2">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffaaaaaa</item>
+    </style>
+    <style name="widget_word_4_word3">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="widget_word_4_word3_2">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffaaaaaa</item>
+    </style>
+    <style name="widget_word_4_word4">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="widget_word_4_word4_2">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffaaaaaa</item>
+    </style>
+    <style name="mail_detail_title">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="mail_detail_content">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ff404040</item>
+    </style>
+    <style name="ad_mail_msg_showdetail">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff3971b8</item>
+    </style>
+    <style name="inputdialog_TextViewCharCnt">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="inputdialog_shuoshuo">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="inputdialog_synchronize">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="qq_option_list_item_2_text_id" />
+    <style name="config_view_config_text" />
+    <style name="srvmsg_srvmsg_txt" />
+    <style name="ad_msg_text">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="ad_msg_title" parent="@style/simeple_top_texttitle_TextView01" />
+    <style name="ad_msg_text_title">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/ad_sub_title_color</item>
+    </style>
+    <style name="ad_msg_text_time">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/ad_time_color</item>
+    </style>
+    <style name="ad_msg_text_layout">
+        <item name="android:background">@drawable/feed_back</item>
+    </style>
+    <style name="ad_msg_text_context">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/ad_body_color</item>
+    </style>
+</resources>

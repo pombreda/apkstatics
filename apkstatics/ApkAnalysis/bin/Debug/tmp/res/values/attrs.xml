@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <attr name="back_btn_bg" format="reference|color" />
+    <attr name="bodylist_bg" format="reference|color" />
+    <attr name="bodylisttop_bg" format="reference|color" />
+    <attr name="bottom_bg" format="reference|color" />
+    <attr name="bottombar_2_bg" format="reference|color" />
+    <attr name="bottombar_3_bg" format="reference|color" />
+    <attr name="bottombar_3_img" format="reference" />
+    <attr name="qq_close_bg" format="reference|color" />
+    <attr name="qq_checkbox_style" format="reference" />
+    <attr name="qq_radioButtonStyle" format="reference" />
+    <attr name="qq_selectitem_bg" format="reference|color" />
+    <attr name="qq_cancel_bg" format="reference|color" />
+    <attr name="qq_talk_select_bg" format="reference|color" />
+    <attr name="qq_history_button_bg" format="reference|color" />
+    <attr name="qq_option_bg" format="reference|color" />
+    <attr name="qq_prev_page_bg" format="reference|color" />
+    <attr name="qq_next_page_bg" format="reference|color" />
+    <attr name="contextbtn_bg" format="reference|color" />
+    <attr name="expander_group_bg" format="reference|color" />
+    <attr name="chating_title_bg" format="reference|color" />
+    <attr name="more_select_bg" format="reference|color" />
+    <attr name="expand_group_bar_bg" format="reference|color" />
+    <attr name="highlight_item_bg" format="reference|color" />
+    <attr name="export_history_img" format="reference|color" />
+    <attr name="delete_history_img" format="reference|color" />
+    <attr name="tab1_bg" format="reference|color" />
+    <attr name="tab2_bg" format="reference|color" />
+    <attr name="tab3_bg" format="reference|color" />
+    <attr name="info_divider" format="reference|color" />
+    <attr name="chat_selectitem" format="reference|color" />
+    <attr name="chat_divider" format="reference|color" />
+    <attr name="camera_s" format="reference|color" />
+</resources>

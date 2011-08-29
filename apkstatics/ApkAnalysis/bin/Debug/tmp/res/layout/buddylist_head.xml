@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/qq_num" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="50.0dip" android:text="QQ号码" android:singleLine="true" android:layout_weight="1.0" style="\@style/buddylist_head_qq_num" />
+    <TextView android:ellipsize="middle" android:id="@id/qq_nickname" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="昵称" android:singleLine="true" android:layout_weight="1.0" android:layout_toRightOf="@id/headIcon" style="\@style/buddylist_head_qq_nickname" />
+</LinearLayout>

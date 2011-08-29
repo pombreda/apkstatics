@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <AbsoluteLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/buddylist_img_head" android:visibility="visible" android:layout_width="32.0dip" android:layout_height="32.0dip" android:adjustViewBounds="true" android:keepScreenOn="true" />
+        <ImageView android:id="@id/buddylist_img_head_status" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="20.0dip" android:layout_y="22.0dip" />
+    </AbsoluteLayout>
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="16.0sp" android:textStyle="bold" android:layout_gravity="center_vertical" android:id="@id/buddylist_txt_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="16.0sp" android:textStyle="bold" android:layout_gravity="center_vertical" android:id="@id/buddylist_txt_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+</LinearLayout>
