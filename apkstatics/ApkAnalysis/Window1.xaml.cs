@@ -285,7 +285,7 @@ namespace ApkAnalysis
         {
             try
             {
-                panel1.Children.Clear();
+                //panel1.Children.Clear();
                 Dispatcher.Invoke(System.Windows.Threading.DispatcherPriority.SystemIdle, new DelegateClearPanel(delegetedClearPanel),panel1);             
 
 
@@ -297,7 +297,7 @@ namespace ApkAnalysis
                     TextBlock tb = new TextBlock();
                     tb.Text = "No Result!";
                     Dispatcher.Invoke(System.Windows.Threading.DispatcherPriority.SystemIdle,new DelegateAddPanel(delegatedAddPanel), panel1,tb);
-                    panel1.Children.Add(tb);
+                   // panel1.Children.Add(tb);
                     return;
                 }
 
@@ -349,6 +349,7 @@ namespace ApkAnalysis
                     WekaAnalysis(permissionList, "DecisionTable");
                 }
                */
+               
 
                 if (permissionList.Count > 0)
                 {
@@ -465,7 +466,8 @@ namespace ApkAnalysis
                     }
                     //panel1.Children.Add(new TextBlock());
                     Dispatcher.Invoke(System.Windows.Threading.DispatcherPriority.SystemIdle, new DelegateAddPanel(delegatedAddPanel), panel1, new TextBlock());
-                }              
+                }  
+                 
 
                
                
