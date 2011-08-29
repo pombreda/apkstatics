@@ -1,0 +1,3 @@
+SMSReceiver;->abortBroadcast,9
+SmsManager;->sendTextMessage,7
+ContentResolver;->query,5
