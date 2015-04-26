@@ -1,0 +1,1 @@
+apkstatics is a tool for APK static security check, include permission check, function check and classification check
